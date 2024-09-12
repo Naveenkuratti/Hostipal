@@ -10,11 +10,11 @@ public class User {
 	
 	
 	
-	public User(String fullName, String email, String passwaord) {
+	public User(String fullName, String email, String password) {
 		super();
 		this.fullName = fullName;
 		this.email = email;
-		this.passwaord = passwaord;
+		this.passwaord = password;
 	}
 	public int getId() {
 		return id;

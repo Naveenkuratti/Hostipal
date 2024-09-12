@@ -34,7 +34,21 @@
     <artifactId>jstl</artifactId>
     <version>1.2</version>
 </dependency>
+<servlet>
+    <servlet-name>UserRegister</servlet-name>
+    <servlet-class>com.user.servlet.UserRegister</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UserRegister</servlet-name>
+    <url-pattern>/user_register</url-pattern>
+</servlet-mapping>
 
+
+  	<dependency>
+  		<groupId>com.example</groupId>
+  		<artifactId>Shopping_Cart</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
   <build>
     <finalName>hostipal</finalName>
